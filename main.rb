@@ -495,6 +495,8 @@ end
 bot.command :kutas do |msg|
   msg.respond kutas
 end
+bot.command :help do |msg|
+  msg.respond "!kutas, ! amongus, !obama, !floyd, !dupa, !monkas, !papa, !pooksie"
 
 at_exit {bot.stop}
 bot.run
