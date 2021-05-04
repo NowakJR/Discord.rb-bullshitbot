@@ -497,6 +497,8 @@ bot.command :kutas do |msg|
 end
 bot.command :help do |msg|
   msg.respond "!kutas, ! amongus, !obama, !floyd, !dupa, !monkas, !papa, !pooksie"
+  
+  ##cos tu jeszcze bedzie
 
 at_exit {bot.stop}
 bot.run
