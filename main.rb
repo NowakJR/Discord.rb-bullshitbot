@@ -497,6 +497,11 @@ bot.command :kutas do |msg|
 end
 bot.command :help do |msg|
   msg.respond "!kutas, ! amongus, !obama, !floyd, !dupa, !monkas, !papa, !pooksie"
+end
+  
+bot.command :fotoradar do |msg|
+  msg.respond "Jedziesz z prędkością" + rand(0..300).to_string + "km/h"
+end
   
   ##cos tu jeszcze bedzie
 
